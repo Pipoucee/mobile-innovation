@@ -1,17 +1,83 @@
 {
   "images" : [
     {
-      "filename" : "keith-misner-h0Vxgz5tyXA-unsplash.jpg",
+      "filename" : "cj-dayrit-LSKsYHGj4rI-unsplash 5.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "keith-misner-h0Vxgz5tyXA-unsplash 1.jpg",
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "light"
+        }
+      ],
+      "filename" : "cj-dayrit-LSKsYHGj4rI-unsplash.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "cosmic-timetraveler--SFhuMwFClk-unsplash.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "cj-dayrit-LSKsYHGj4rI-unsplash 4.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "keith-misner-h0Vxgz5tyXA-unsplash 2.jpg",
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "light"
+        }
+      ],
+      "filename" : "cj-dayrit-LSKsYHGj4rI-unsplash 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "cosmic-timetraveler--SFhuMwFClk-unsplash 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "cj-dayrit-LSKsYHGj4rI-unsplash 3.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "light"
+        }
+      ],
+      "filename" : "cj-dayrit-LSKsYHGj4rI-unsplash 2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "cosmic-timetraveler--SFhuMwFClk-unsplash 2.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

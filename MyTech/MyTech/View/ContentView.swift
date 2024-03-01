@@ -13,23 +13,25 @@ struct ContentView: View {
     var body: some View {
         TabView( content:
                     {
-            HomeView().tabItem { Text("Home")
+            HomeView().tabItem {
+                
+               Image("tabicon-home")
             }.tag(1)
-            Text("Tab Content 2").tabItem { Text("Tab Label 2")
+            SettingView().tabItem { Image("tabicon-cv")
             }.tag(2)
-            Text("Tab Content 3").tabItem { Text("Tab Label 3")
+            SettingView().tabItem { Image("tabicon-exp")
             }.tag(3)
-            Text("Tab Content 4").tabItem { Text("Tab Label 4")
+            SettingView().tabItem { Image("tabicon-settings")
             }.tag(4)
         })
         .accentColor(Color.primary)
-       
-        
+  
     }
  
 }
 
 #Preview {
-    ContentView()
+    ContentView().previewLayout(.sizeThatFits)
+        .environment(\.colorScheme, .light)
          
 }

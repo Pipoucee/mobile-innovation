@@ -15,6 +15,13 @@
 		06069D752B8F704B001F9D1E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06069D742B8F704B001F9D1E /* HomeView.swift */; };
 		06069D772B8F7066001F9D1E /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06069D762B8F7066001F9D1E /* SettingView.swift */; };
 		06069D792B8F72DB001F9D1E /* FeedBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06069D782B8F72DB001F9D1E /* FeedBackView.swift */; };
+		06069D7B2B8FB66E001F9D1E /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06069D7A2B8FB66E001F9D1E /* ExperienceView.swift */; };
+		06069D7D2B8FB683001F9D1E /* CompetenceFonctionnelleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06069D7C2B8FB683001F9D1E /* CompetenceFonctionnelleView.swift */; };
+		06E515372B90B1CB003EBDB8 /* OffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E515362B90B1CB003EBDB8 /* OffersView.swift */; };
+		06E515392B90B5AA003EBDB8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E515382B90B5AA003EBDB8 /* LoginView.swift */; };
+		06E5153B2B90B5C7003EBDB8 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5153A2B90B5C7003EBDB8 /* SignUpView.swift */; };
+		06E5153D2B90B5DF003EBDB8 /* OtpFormFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5153C2B90B5DF003EBDB8 /* OtpFormFieldView.swift */; };
+		06E5153F2B90B998003EBDB8 /* OtpModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5153E2B90B998003EBDB8 /* OtpModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +34,13 @@
 		06069D742B8F704B001F9D1E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		06069D762B8F7066001F9D1E /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		06069D782B8F72DB001F9D1E /* FeedBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackView.swift; sourceTree = "<group>"; };
+		06069D7A2B8FB66E001F9D1E /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceView.swift; sourceTree = "<group>"; };
+		06069D7C2B8FB683001F9D1E /* CompetenceFonctionnelleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetenceFonctionnelleView.swift; sourceTree = "<group>"; };
+		06E515362B90B1CB003EBDB8 /* OffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersView.swift; sourceTree = "<group>"; };
+		06E515382B90B5AA003EBDB8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		06E5153A2B90B5C7003EBDB8 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		06E5153C2B90B5DF003EBDB8 /* OtpFormFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpFormFieldView.swift; sourceTree = "<group>"; };
+		06E5153E2B90B998003EBDB8 /* OtpModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +99,13 @@
 				06069D712B8F6FF4001F9D1E /* Home */,
 				06069D762B8F7066001F9D1E /* SettingView.swift */,
 				06069D782B8F72DB001F9D1E /* FeedBackView.swift */,
+				06069D7A2B8FB66E001F9D1E /* ExperienceView.swift */,
+				06069D7C2B8FB683001F9D1E /* CompetenceFonctionnelleView.swift */,
+				06E515362B90B1CB003EBDB8 /* OffersView.swift */,
+				06E515382B90B5AA003EBDB8 /* LoginView.swift */,
+				06E5153A2B90B5C7003EBDB8 /* SignUpView.swift */,
+				06E5153C2B90B5DF003EBDB8 /* OtpFormFieldView.swift */,
+				06E5153E2B90B998003EBDB8 /* OtpModifier.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,11 +203,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				06069D632B8F4AB2001F9D1E /* ContentView.swift in Sources */,
+				06E515372B90B1CB003EBDB8 /* OffersView.swift in Sources */,
+				06E5153D2B90B5DF003EBDB8 /* OtpFormFieldView.swift in Sources */,
 				06069D772B8F7066001F9D1E /* SettingView.swift in Sources */,
 				06069D752B8F704B001F9D1E /* HomeView.swift in Sources */,
 				06069D652B8F4AB2001F9D1E /* Item.swift in Sources */,
+				06E5153B2B90B5C7003EBDB8 /* SignUpView.swift in Sources */,
 				06069D612B8F4AB2001F9D1E /* MyTechApp.swift in Sources */,
+				06069D7D2B8FB683001F9D1E /* CompetenceFonctionnelleView.swift in Sources */,
+				06069D7B2B8FB66E001F9D1E /* ExperienceView.swift in Sources */,
+				06E515392B90B5AA003EBDB8 /* LoginView.swift in Sources */,
 				06069D792B8F72DB001F9D1E /* FeedBackView.swift in Sources */,
+				06E5153F2B90B998003EBDB8 /* OtpModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,8 +354,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,8 +382,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

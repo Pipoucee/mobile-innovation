@@ -42,7 +42,7 @@ struct HomeView: View {
                     Text("Lead tech mobile")
                             .fontWeight(.bold)
                             .font(.system(size: 30, design: .serif))
-                Spacer()
+                
             //: Description
                 
                 Text("""
@@ -78,4 +78,5 @@ Une opportunité de travailler et de se perfectionner, ainsi que d'être impliqu
 
 #Preview {
     HomeView().previewLayout(.sizeThatFits)
+        .environment(\.colorScheme, .light)
 }
